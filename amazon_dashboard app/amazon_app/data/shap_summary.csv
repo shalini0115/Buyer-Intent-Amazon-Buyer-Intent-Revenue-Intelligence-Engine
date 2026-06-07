@@ -1,0 +1,294 @@
+product_id,pred_segment,shap_push,shap_push_val,shap_barrier,shap_barrier_val,recommendation_text
+B07W9KYT62,QUALITY_FIRST,savings_ratio,1.2717,rating,-2.1675,Key driver: savings_ratio. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B0123P3PWE,NICHE_EXPLORER,review_percentile,2.5342,social_proof_score,-0.3497,Key driver: review_percentile. Main barrier: social_proof_score. Optimise social_proof_score to shift toward a higher-value segment.
+B0B3RRWSF6,DEAL_SEEKER,savings_ratio,3.7468,about_length,-0.2359,Discount (savings_ratio=0.80) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09P22HXH6,DEAL_SEEKER,savings_ratio,3.6651,about_length,-0.2154,Discount (savings_ratio=0.66) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B07YNHCW6N,DEAL_SEEKER,savings_ratio,3.6633,tfidf_10,-0.3798,Discount (savings_ratio=0.78) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09LRZYBH1,QUALITY_FIRST,rating,3.1018,price_savings,-0.1786,Key driver: rating. Main barrier: price_savings. Optimise price_savings to shift toward a higher-value segment.
+B008LN8KDM,SOCIAL_PROOF,rating,1.9245,tfidf_black,-0.2374,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B08FGNPQ9X,DEAL_SEEKER,savings_ratio,3.6312,price_vs_median,-0.2036,Discount (savings_ratio=0.60) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B08QSC1XY8,DEAL_SEEKER,savings_ratio,3.8645,tfidf_cable,-0.0859,Discount (savings_ratio=0.65) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B07XCM6T4N,DEAL_SEEKER,savings_ratio,3.8048,review_log,-0.1709,Low review volume (log=10.12) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B00R1P3B4O,SOCIAL_PROOF,rating,2.7462,tfidf_black,-0.2183,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B09VKWGZD7,DEAL_SEEKER,savings_ratio,3.2737,trust_score,-0.3013,Low trust_score (2.28) is barrier to QUALITY_FIRST. Improving seller rating and response rate could boost trust score by 0.2+ and shift segment.
+B08JV91JTK,DEAL_SEEKER,savings_ratio,3.7562,tfidf_electric,-0.4924,Discount (savings_ratio=0.64) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B00H0B29DI,QUALITY_FIRST,rating,3.3227,tfidf_black,-0.2809,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B00HVXS7WC,NICHE_EXPLORER,review_percentile,2.7165,price_percentile,-0.3055,Key driver: review_percentile. Main barrier: price_percentile. Optimise price_percentile to shift toward a higher-value segment.
+B08YRMBK9R,DEAL_SEEKER,savings_ratio,3.4069,tfidf_electric,-0.4924,Discount (savings_ratio=0.48) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09NHVCHS9,DEAL_SEEKER,savings_ratio,3.8608,price_savings,-0.314,Discount (savings_ratio=0.70) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B01DEWVZ2C,NICHE_EXPLORER,review_percentile,2.6588,tfidf_black,-0.3608,Key driver: review_percentile. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B07CRL2GY6,DEAL_SEEKER,savings_ratio,3.8784,review_log,-0.1721,Low review volume (log=11.45) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B09DSQXCM8,QUALITY_FIRST,rating,3.2026,keyword_density,-0.5047,Key driver: rating. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B09C6HWG18,DEAL_SEEKER,savings_ratio,3.4069,tfidf_charging,-0.2188,Discount (savings_ratio=0.51) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B097XJQZ8H,DEAL_SEEKER,savings_ratio,3.7099,review_log,-0.1669,Low review volume (log=9.09) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B08NW8GHCJ,DEAL_SEEKER,savings_ratio,3.8625,about_length,-0.2919,Discount (savings_ratio=0.61) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B07LG96SDB,QUALITY_FIRST,rating,3.4628,tfidf_black,-0.3546,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B09JS562TP,QUALITY_FIRST,review_percentile,1.1024,keyword_density,-0.4579,Key driver: review_percentile. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B09GYBZPHF,DEAL_SEEKER,savings_ratio,3.4047,rating,-0.714,Low product rating (3.8★) prevents QUALITY_FIRST entry. Improve review quality — target 4.2★+ for threshold crossing.
+B075ZTJ9XR,DEAL_SEEKER,savings_ratio,3.9173,review_log,-0.1721,Low review volume (log=10.49) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B09N6TTHT6,QUALITY_FIRST,review_percentile,0.8257,rating,-0.5408,Key driver: review_percentile. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B00SH18114,DEAL_SEEKER,savings_ratio,2.7898,trust_score,-1.7149,Low trust_score (2.48) is barrier to QUALITY_FIRST. Improving seller rating and response rate could boost trust score by 0.2+ and shift segment.
+B08498H13H,DEAL_SEEKER,savings_ratio,3.5739,social_proof_score,-0.1918,Discount (savings_ratio=0.57) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B07LG59NPV,DEAL_SEEKER,savings_ratio,3.4793,rating,-0.7663,Low product rating (3.8★) prevents QUALITY_FIRST entry. Improve review quality — target 4.2★+ for threshold crossing.
+B09X7DY7Q4,DEAL_SEEKER,savings_ratio,3.0812,trust_score,-1.6904,Low trust_score (2.34) is barrier to QUALITY_FIRST. Improving seller rating and response rate could boost trust score by 0.2+ and shift segment.
+B0BBLHTRM9,QUALITY_FIRST,rating,5.7567,savings_ratio,-1.189,Key driver: rating. Main barrier: savings_ratio. Optimise savings_ratio to shift toward a higher-value segment.
+B009UORDX4,SOCIAL_PROOF,rating,1.9468,tfidf_black,-0.2362,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B07Z1YVP72,DEAL_SEEKER,savings_ratio,3.8019,review_log,-0.1718,Low review volume (log=9.34) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B096MSW6CT,DEAL_SEEKER,savings_ratio,3.771,about_length,-0.3047,Discount (savings_ratio=0.90) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0BMXMLSMM,DEAL_SEEKER,savings_ratio,3.8606,about_length,-0.2716,Discount (savings_ratio=0.80) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B07JF9B592,QUALITY_FIRST,rating,3.6061,tfidf_black,-0.3063,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B0B4DT8MKT,DEAL_SEEKER,savings_ratio,3.6822,tfidf_charging,-0.2188,Discount (savings_ratio=0.77) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09KRHXTLN,QUALITY_FIRST,rating,3.0561,keyword_density,-0.398,Key driver: rating. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B00LM4W1N2,SOCIAL_PROOF,rating,1.9257,tfidf_black,-0.2452,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B08V9C4B1J,DEAL_SEEKER,savings_ratio,3.8263,about_length,-0.2808,Discount (savings_ratio=0.65) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B083342NKJ,SOCIAL_PROOF,rating,2.751,tfidf_black,-0.2051,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B08ZJDWTJ1,SOCIAL_PROOF,rating,2.6488,tfidf_black,-0.2172,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B014I8SSD0,NICHE_EXPLORER,review_percentile,2.1539,rating,-1.4461,Key driver: review_percentile. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B0B84QN4CN,QUALITY_FIRST,rating,5.0866,review_log,-0.6239,Low review volume (log=4.52) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B09939XJX8,DEAL_SEEKER,savings_ratio,3.7039,about_length,-0.2865,Discount (savings_ratio=0.76) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0BBFJ9M3X,QUALITY_FIRST,rating,3.4316,price_savings,-0.2395,Key driver: rating. Main barrier: price_savings. Optimise price_savings to shift toward a higher-value segment.
+B09DL9978Y,DEAL_SEEKER,savings_ratio,3.4033,social_proof_score,-0.1659,Discount (savings_ratio=0.48) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B075TJHWVC,DEAL_SEEKER,savings_ratio,3.8344,review_log,-0.2025,Low review volume (log=8.10) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B01MY839VW,DEAL_SEEKER,savings_ratio,3.3714,tfidf_electric,-0.4924,Discount (savings_ratio=0.50) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0BCVJ3PVP,DEAL_SEEKER,savings_ratio,3.7726,about_length,-0.2788,Discount (savings_ratio=0.62) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B07D2NMTTV,QUALITY_FIRST,review_percentile,1.1227,review_sentiment,-0.3296,Key driver: review_percentile. Main barrier: review_sentiment. Optimise review_sentiment to shift toward a higher-value segment.
+B07WGPBXY9,QUALITY_FIRST,rating,4.9228,review_percentile,-1.7055,Key driver: rating. Main barrier: review_percentile. Optimise review_percentile to shift toward a higher-value segment.
+B08MZNT7GP,QUALITY_FIRST,savings_ratio,1.0976,tfidf_black,-0.2716,Key driver: savings_ratio. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B00NH11PEY,DEAL_SEEKER,savings_ratio,3.9275,review_log,-0.1721,Low review volume (log=11.22) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B0856HY85J,DEAL_SEEKER,savings_ratio,3.7112,tfidf_mic,-0.3951,Discount (savings_ratio=0.64) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09YV4RG4D,DEAL_SEEKER,savings_ratio,3.7736,about_length,-0.2359,Discount (savings_ratio=0.81) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B08HF4W2CT,DEAL_SEEKER,savings_ratio,3.6575,tfidf_charging,-0.2188,Discount (savings_ratio=0.54) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B07GXHC691,DEAL_SEEKER,savings_ratio,3.9284,about_length,-0.2241,Discount (savings_ratio=0.80) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B00LP9RFSU,QUALITY_FIRST,review_percentile,1.126,keyword_density,-0.3648,Key driver: review_percentile. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B09C635BMM,DEAL_SEEKER,savings_ratio,3.8489,price_savings,-0.0845,Discount (savings_ratio=0.65) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09NC2TY11,DEAL_SEEKER,savings_ratio,3.7571,about_length,-0.2395,Discount (savings_ratio=0.58) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09NTHQRW3,QUALITY_FIRST,review_percentile,1.0658,keyword_density,-0.4269,Key driver: review_percentile. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B0B1NX6JTN,QUALITY_FIRST,savings_ratio,1.2388,rating,-2.2841,Key driver: savings_ratio. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B07TTSS5MP,QUALITY_FIRST,rating,3.2023,keyword_density,-0.2619,Key driver: rating. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B0756K5DYZ,DEAL_SEEKER,savings_ratio,3.6205,review_log,-0.1496,Low review volume (log=10.67) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B08TDJNM3G,QUALITY_FIRST,rating,3.8266,word_count,-0.0741,Key driver: rating. Main barrier: word_count. Optimise word_count to shift toward a higher-value segment.
+B08FN6WGDQ,DEAL_SEEKER,savings_ratio,3.5734,tfidf_mic,-0.3951,Discount (savings_ratio=0.70) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B083RD1J99,QUALITY_FIRST,review_percentile,1.1078,review_sentiment,-0.1925,Key driver: review_percentile. Main barrier: review_sentiment. Optimise review_sentiment to shift toward a higher-value segment.
+B09ZVJXN5L,QUALITY_FIRST,rating,5.4446,review_log,-0.5428,Low review volume (log=2.20) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B0BCKJJN8R,DEAL_SEEKER,savings_ratio,3.5201,review_percentile,-0.1386,Discount (savings_ratio=0.51) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0B2DJDCPX,DEAL_SEEKER,savings_ratio,3.7803,about_length,-0.367,Discount (savings_ratio=0.58) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B08Y1TFSP6,DEAL_SEEKER,savings_ratio,3.767,tfidf_charging,-0.2188,Discount (savings_ratio=0.85) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B00E3DVQFS,SOCIAL_PROOF,rating,2.7489,tfidf_black,-0.2237,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B09XJ1LM7R,DEAL_SEEKER,savings_ratio,3.301,social_proof_score,-0.3307,Discount (savings_ratio=0.50) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09BN2NPBD,DEAL_SEEKER,savings_ratio,3.4678,tfidf_mini,-0.1827,Discount (savings_ratio=0.51) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B08L5HMJVW,DEAL_SEEKER,savings_ratio,3.1548,trust_score,-0.7773,Low trust_score (2.33) is barrier to QUALITY_FIRST. Improving seller rating and response rate could boost trust score by 0.2+ and shift segment.
+B08Y57TPDM,QUALITY_FIRST,savings_ratio,1.0597,rating,-2.329,Key driver: savings_ratio. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B08K36NZSV,DEAL_SEEKER,savings_ratio,3.2733,tfidf_10,-0.405,Discount (savings_ratio=0.50) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0148NPH9I,SOCIAL_PROOF,rating,2.651,tfidf_black,-0.2419,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B0B9BD2YL4,DEAL_SEEKER,savings_ratio,3.6809,about_length,-0.2293,Discount (savings_ratio=0.63) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B07B275VN9,QUALITY_FIRST,rating,5.0855,savings_ratio,-1.2407,Key driver: rating. Main barrier: savings_ratio. Optimise savings_ratio to shift toward a higher-value segment.
+B00N1U7JXM,DEAL_SEEKER,savings_ratio,3.4066,price_savings,-0.357,Discount (savings_ratio=0.49) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09ZDVL7L8,QUALITY_FIRST,rating,2.9189,price_savings,-0.1935,Key driver: rating. Main barrier: price_savings. Optimise price_savings to shift toward a higher-value segment.
+B08CFCK6CW,QUALITY_FIRST,rating,5.3425,savings_ratio,-1.2268,Key driver: rating. Main barrier: savings_ratio. Optimise savings_ratio to shift toward a higher-value segment.
+B07LFWP97N,DEAL_SEEKER,savings_ratio,3.9507,has_colour,-0.0649,Discount (savings_ratio=0.76) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09YV575RK,DEAL_SEEKER,savings_ratio,3.6778,tfidf_mic,-0.3951,Discount (savings_ratio=0.75) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B08HQL67D6,NICHE_EXPLORER,review_percentile,2.6786,social_proof_score,-0.1898,Key driver: review_percentile. Main barrier: social_proof_score. Optimise social_proof_score to shift toward a higher-value segment.
+B07F1T31ZZ,QUALITY_FIRST,savings_ratio,1.091,has_colour,-0.104,Key driver: savings_ratio. Main barrier: has_colour. Optimise has_colour to shift toward a higher-value segment.
+B08VGM3YMF,DEAL_SEEKER,savings_ratio,3.9382,price_savings,-0.3596,Discount (savings_ratio=0.60) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09ZQK9X8G,DEAL_SEEKER,savings_ratio,3.6548,review_log,-0.2025,Low review volume (log=8.55) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B09LHXNZLR,QUALITY_FIRST,rating,5.434,savings_ratio,-1.2336,Key driver: rating. Main barrier: savings_ratio. Optimise savings_ratio to shift toward a higher-value segment.
+B08LT9BMPP,SOCIAL_PROOF,rating,2.6277,word_count,-0.2298,Key driver: rating. Main barrier: word_count. Optimise word_count to shift toward a higher-value segment.
+B09PNR6F8Q,QUALITY_FIRST,savings_ratio,1.2349,tfidf_black,-0.2799,Key driver: savings_ratio. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B0B9RN5X8B,QUALITY_FIRST,review_percentile,1.0352,rating,-0.4879,Key driver: review_percentile. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B08SMJT55F,DEAL_SEEKER,savings_ratio,3.7343,tfidf_wireless,-0.1257,Discount (savings_ratio=0.70) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B012ELCYUG,SOCIAL_PROOF,rating,1.9271,tfidf_white,-0.2144,Key driver: rating. Main barrier: tfidf_white. Optimise tfidf_white to shift toward a higher-value segment.
+B094JNXNPV,QUALITY_FIRST,rating,1.1087,keyword_density,-0.4209,Key driver: rating. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B08CF3D7QR,DEAL_SEEKER,savings_ratio,3.8367,price_savings,-0.2865,Discount (savings_ratio=0.55) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09L8DSSFH,QUALITY_FIRST,rating,5.4523,savings_ratio,-1.2015,Key driver: rating. Main barrier: savings_ratio. Optimise savings_ratio to shift toward a higher-value segment.
+B0B5B6PQCT,DEAL_SEEKER,savings_ratio,3.4803,rating,-0.7941,Low product rating (3.8★) prevents QUALITY_FIRST entry. Improve review quality — target 4.2★+ for threshold crossing.
+B09JN37WBX,DEAL_SEEKER,savings_ratio,3.8163,social_proof_score,-0.2192,Discount (savings_ratio=0.57) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09Q5SWVBJ,NICHE_EXPLORER,review_percentile,2.7924,has_colour,-0.1561,Key driver: review_percentile. Main barrier: has_colour. Optimise has_colour to shift toward a higher-value segment.
+B08TGG316Z,DEAL_SEEKER,savings_ratio,3.8005,review_log,-0.2025,Low review volume (log=8.21) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B09FKDH6FS,NICHE_EXPLORER,review_percentile,2.4798,trust_score,-0.1019,Key driver: review_percentile. Main barrier: trust_score. Optimise trust_score to shift toward a higher-value segment.
+B09YV463SW,DEAL_SEEKER,savings_ratio,3.7769,about_length,-0.2359,Discount (savings_ratio=0.85) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B07DJ5KYDZ,DEAL_SEEKER,savings_ratio,3.6255,review_log,-0.2025,Low review volume (log=8.43) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B07S9M8YTY,DEAL_SEEKER,savings_ratio,3.391,price_savings,-0.261,Discount (savings_ratio=0.48) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09RKFBCV7,DEAL_SEEKER,savings_ratio,3.7528,about_length,-0.2491,Discount (savings_ratio=0.75) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B07SY4C3TD,SOCIAL_PROOF,rating,2.7466,tfidf_black,-0.2228,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B09NHVCHS9,DEAL_SEEKER,savings_ratio,3.8608,price_savings,-0.314,Discount (savings_ratio=0.70) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0BP18W8TM,DEAL_SEEKER,savings_ratio,3.5973,social_proof_score,-0.3837,Discount (savings_ratio=0.60) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0746JGVDS,DEAL_SEEKER,savings_ratio,3.8481,review_log,-0.1721,Low review volume (log=10.75) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B09MQSCJQ1,DEAL_SEEKER,savings_ratio,3.731,review_log,-0.1672,Low review volume (log=11.15) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B09GFM8CGS,NICHE_EXPLORER,review_percentile,2.6032,tfidf_black,-0.3775,Key driver: review_percentile. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B06XSK3XL6,NICHE_EXPLORER,review_percentile,2.3397,rating,-1.3838,Key driver: review_percentile. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B09MT84WV5,DEAL_SEEKER,savings_ratio,3.79,review_log,-0.1672,Low review volume (log=11.85) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B0B9XLX8VR,QUALITY_FIRST,savings_ratio,1.2323,rating,-2.3159,Key driver: savings_ratio. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B08J7VCT12,DEAL_SEEKER,savings_ratio,3.6129,review_percentile,-0.1315,Discount (savings_ratio=0.53) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0B3MWYCHQ,DEAL_SEEKER,savings_ratio,3.6886,about_length,-0.2204,Discount (savings_ratio=0.70) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0765B3TH7,DEAL_SEEKER,savings_ratio,3.9305,review_log,-0.1706,Low review volume (log=9.52) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B08243SKCK,QUALITY_FIRST,review_percentile,1.1363,rating,-0.7811,Key driver: review_percentile. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B09MKP344P,QUALITY_FIRST,review_percentile,1.1501,price_savings,-0.1936,Key driver: review_percentile. Main barrier: price_savings. Optimise price_savings to shift toward a higher-value segment.
+B00F159RIK,QUALITY_FIRST,review_percentile,0.6957,keyword_density,-0.5294,Key driver: review_percentile. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B085DTN6R2,DEAL_SEEKER,savings_ratio,3.8476,review_percentile,-0.1224,Discount (savings_ratio=0.61) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B08ZXZ362Z,QUALITY_FIRST,rating,5.045,savings_ratio,-1.1612,Key driver: rating. Main barrier: savings_ratio. Optimise savings_ratio to shift toward a higher-value segment.
+B00LZLQ624,SOCIAL_PROOF,rating,2.7502,tfidf_black,-0.2137,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B09MB3DKG1,QUALITY_FIRST,rating,4.941,trust_score,-0.5695,Key driver: rating. Main barrier: trust_score. Optimise trust_score to shift toward a higher-value segment.
+B088ZTJT2R,NICHE_EXPLORER,review_percentile,2.7877,social_proof_score,-0.3643,Key driver: review_percentile. Main barrier: social_proof_score. Optimise social_proof_score to shift toward a higher-value segment.
+B0BGSV43WY,QUALITY_FIRST,rating,4.9647,review_log,-0.5764,Low review volume (log=3.64) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B0B4F2ZWL3,QUALITY_FIRST,review_percentile,1.1686,review_sentiment,-0.2371,Key driver: review_percentile. Main barrier: review_sentiment. Optimise review_sentiment to shift toward a higher-value segment.
+B09F3PDDRF,DEAL_SEEKER,savings_ratio,3.6882,tfidf_adapter,-0.119,Discount (savings_ratio=0.65) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09C6H53KH,DEAL_SEEKER,savings_ratio,3.2224,price_savings,-0.2281,Discount (savings_ratio=0.47) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B08WKCTFF3,DEAL_SEEKER,savings_ratio,3.6472,has_colour,-0.1282,Discount (savings_ratio=0.55) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B095PWLLY6,NICHE_EXPLORER,review_percentile,2.8074,social_proof_score,-0.3203,Key driver: review_percentile. Main barrier: social_proof_score. Optimise social_proof_score to shift toward a higher-value segment.
+B07DKZCZ89,DEAL_SEEKER,savings_ratio,3.9292,review_log,-0.1718,Low review volume (log=9.62) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B08R69WBN7,DEAL_SEEKER,savings_ratio,3.8811,tfidf_charging,-0.2188,Discount (savings_ratio=0.70) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0B4F4QZ1H,QUALITY_FIRST,review_percentile,1.1686,review_sentiment,-0.2371,Key driver: review_percentile. Main barrier: review_sentiment. Optimise review_sentiment to shift toward a higher-value segment.
+B07J9KXQCC,QUALITY_FIRST,rating,5.4877,savings_ratio,-1.2291,Key driver: rating. Main barrier: savings_ratio. Optimise savings_ratio to shift toward a higher-value segment.
+B08N6P8G5K,QUALITY_FIRST,savings_ratio,1.3288,rating,-2.1926,Key driver: savings_ratio. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B09Q8HMKZX,DEAL_SEEKER,savings_ratio,3.829,about_length,-0.2495,Discount (savings_ratio=0.62) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09QS8V5N8,NICHE_EXPLORER,review_percentile,2.7617,review_sentiment,-0.1778,Key driver: review_percentile. Main barrier: review_sentiment. Optimise review_sentiment to shift toward a higher-value segment.
+B0974G5Q2Y,DEAL_SEEKER,savings_ratio,3.896,review_log,-0.1718,Low review volume (log=9.95) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B07BKSSDR2,DEAL_SEEKER,savings_ratio,3.4184,review_log,-0.2993,Low review volume (log=8.21) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B08XXF5V6G,QUALITY_FIRST,savings_ratio,1.251,rating,-2.1129,Key driver: savings_ratio. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B07WHQWXL7,QUALITY_FIRST,review_percentile,1.1403,keyword_density,-0.4113,Key driver: review_percentile. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B00935MD1C,QUALITY_FIRST,rating,6.2786,review_percentile,-1.6811,Key driver: rating. Main barrier: review_percentile. Optimise review_percentile to shift toward a higher-value segment.
+B08L5FM4JC,DEAL_SEEKER,savings_ratio,3.7984,review_log,-0.1672,Low review volume (log=11.12) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B07WFPMGQQ,SOCIAL_PROOF,rating,1.9819,tfidf_black,-0.2613,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B08N1WL9XW,DEAL_SEEKER,savings_ratio,3.9102,review_log,-0.1718,Low review volume (log=9.15) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B08GJ57MKL,DEAL_SEEKER,savings_ratio,3.6387,price_tier_code,-0.6801,Discount (savings_ratio=0.76) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B00LHZWD0C,SOCIAL_PROOF,rating,2.7489,tfidf_black,-0.2183,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B0BBFJLP21,QUALITY_FIRST,rating,3.3738,tfidf_black,-0.3675,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B0B15CPR37,SOCIAL_PROOF,rating,2.0435,keyword_density,-0.0509,Key driver: rating. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B0B4F5L738,QUALITY_FIRST,review_percentile,1.1686,review_sentiment,-0.2371,Key driver: review_percentile. Main barrier: review_sentiment. Optimise review_sentiment to shift toward a higher-value segment.
+B07XJYYH7L,QUALITY_FIRST,rating,5.0793,savings_ratio,-1.1657,Key driver: rating. Main barrier: savings_ratio. Optimise savings_ratio to shift toward a higher-value segment.
+B09Q3M3WLJ,DEAL_SEEKER,savings_ratio,3.5998,tfidf_10,-0.405,Discount (savings_ratio=0.73) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B077Z65HSD,DEAL_SEEKER,savings_ratio,3.8635,review_log,-0.1718,Low review volume (log=9.95) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B00O2R38C4,NICHE_EXPLORER,review_percentile,2.8627,social_proof_score,-0.3692,Key driver: review_percentile. Main barrier: social_proof_score. Optimise social_proof_score to shift toward a higher-value segment.
+B004IO5BMQ,SOCIAL_PROOF,rating,2.6766,tfidf_black,-0.2543,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B07VV37FT4,QUALITY_FIRST,review_percentile,1.0132,keyword_density,-0.4541,Key driver: review_percentile. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B0BCYQY9X5,DEAL_SEEKER,savings_ratio,3.4784,price_tier_code,-0.5783,Discount (savings_ratio=0.48) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0B9F9PT8R,QUALITY_FIRST,rating,5.6152,savings_ratio,-1.1299,Key driver: rating. Main barrier: savings_ratio. Optimise savings_ratio to shift toward a higher-value segment.
+B08CT62BM1,DEAL_SEEKER,savings_ratio,3.8761,about_length,-0.2598,Discount (savings_ratio=0.70) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B01N1XVVLC,QUALITY_FIRST,savings_ratio,1.0852,review_sentiment,-0.2442,Key driver: savings_ratio. Main barrier: review_sentiment. Optimise review_sentiment to shift toward a higher-value segment.
+B075JJ5NQC,NICHE_EXPLORER,review_percentile,2.8016,social_proof_score,-0.4787,Key driver: review_percentile. Main barrier: social_proof_score. Optimise social_proof_score to shift toward a higher-value segment.
+B09VGKFM7Y,DEAL_SEEKER,savings_ratio,3.7454,social_proof_score,-0.3668,Discount (savings_ratio=0.56) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0756CLQWL,DEAL_SEEKER,savings_ratio,3.5014,tfidf_10,-0.3798,Discount (savings_ratio=0.58) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B08VGFX2B6,QUALITY_FIRST,review_percentile,1.1698,has_colour,-0.0865,Key driver: review_percentile. Main barrier: has_colour. Optimise has_colour to shift toward a higher-value segment.
+B07W14CHV8,DEAL_SEEKER,savings_ratio,3.9081,review_log,-0.2074,Low review volume (log=8.90) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B01LY9W8AF,NICHE_EXPLORER,rating,0.9139,review_log,-0.4758,Key driver: rating. Main barrier: review_log. Optimise review_log to shift toward a higher-value segment.
+B09CTWFV5W,SOCIAL_PROOF,rating,2.6859,review_sentiment,-0.1846,Key driver: rating. Main barrier: review_sentiment. Optimise review_sentiment to shift toward a higher-value segment.
+B0BC8BQ432,QUALITY_FIRST,savings_ratio,1.2978,rating,-2.3665,Key driver: savings_ratio. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B082T6V3DT,DEAL_SEEKER,savings_ratio,3.6773,tfidf_charging,-0.2188,Discount (savings_ratio=0.62) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B01L7C4IU2,QUALITY_FIRST,review_percentile,1.1773,rating,-0.2106,Key driver: review_percentile. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B0088TKTY2,DEAL_SEEKER,savings_ratio,3.5209,tfidf_10,-0.6692,Discount (savings_ratio=0.54) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B081FG1QYX,DEAL_SEEKER,savings_ratio,3.8181,tfidf_charging,-0.2188,Discount (savings_ratio=0.66) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09GFPVD9Y,NICHE_EXPLORER,review_percentile,2.6504,tfidf_black,-0.3775,Key driver: review_percentile. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B0B8ZM9RVV,DEAL_SEEKER,savings_ratio,3.8147,social_proof_score,-0.1982,Discount (savings_ratio=0.58) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0994GP1CX,QUALITY_FIRST,rating,5.083,savings_ratio,-1.197,Key driver: rating. Main barrier: savings_ratio. Optimise savings_ratio to shift toward a higher-value segment.
+B0B15GSPQW,SOCIAL_PROOF,rating,2.1272,keyword_density,-0.0509,Key driver: rating. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B07N2MGB3G,NICHE_EXPLORER,review_percentile,2.4881,tfidf_black,-0.3173,Key driver: review_percentile. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B0B3RSDSZ3,DEAL_SEEKER,savings_ratio,3.7468,about_length,-0.2359,Discount (savings_ratio=0.80) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B08BJN4MP3,NICHE_EXPLORER,review_percentile,2.1624,rating,-1.4771,Key driver: review_percentile. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B082LSVT4B,NICHE_EXPLORER,review_percentile,2.7328,price_percentile,-0.185,Key driver: review_percentile. Main barrier: price_percentile. Optimise price_percentile to shift toward a higher-value segment.
+B095JPKPH3,QUALITY_FIRST,review_percentile,1.1419,tfidf_black,-0.2466,Key driver: review_percentile. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B00NH12R1O,QUALITY_FIRST,savings_ratio,1.2671,rating,-2.2559,Key driver: savings_ratio. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B00NH13Q8W,DEAL_SEEKER,savings_ratio,3.8786,review_log,-0.1721,Low review volume (log=11.22) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B0187F2IOK,SOCIAL_PROOF,rating,2.6099,price_savings,-0.2009,Key driver: rating. Main barrier: price_savings. Optimise price_savings to shift toward a higher-value segment.
+B07JW1Y6XV,DEAL_SEEKER,savings_ratio,3.8031,tfidf_charging,-0.2188,Discount (savings_ratio=0.64) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0B5LVS732,DEAL_SEEKER,savings_ratio,3.7564,review_log,-0.1669,Low review volume (log=9.28) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B09WF4Q7B3,QUALITY_FIRST,rating,4.9793,keyword_density,-0.3965,Key driver: rating. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B0B61DSF17,QUALITY_FIRST,rating,5.0802,savings_ratio,-1.177,Key driver: rating. Main barrier: savings_ratio. Optimise savings_ratio to shift toward a higher-value segment.
+B0BNV7JM5Y,DEAL_SEEKER,savings_ratio,3.611,social_proof_score,-0.3244,Discount (savings_ratio=0.62) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B08WWKM5HQ,QUALITY_FIRST,rating,3.3177,price_savings,-0.2464,Key driver: rating. Main barrier: price_savings. Optimise price_savings to shift toward a higher-value segment.
+B082T6GVG9,DEAL_SEEKER,savings_ratio,3.6941,tfidf_charging,-0.2188,Discount (savings_ratio=0.54) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B07VVXJ2P5,QUALITY_FIRST,rating,5.0518,savings_ratio,-1.2384,Key driver: rating. Main barrier: savings_ratio. Optimise savings_ratio to shift toward a higher-value segment.
+B07L8KNP5F,DEAL_SEEKER,savings_ratio,3.4791,rating,-0.7327,Low product rating (3.8★) prevents QUALITY_FIRST entry. Improve review quality — target 4.2★+ for threshold crossing.
+B08H6CZSHT,SOCIAL_PROOF,rating,1.9413,tfidf_black,-0.2304,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B083GQGT3Z,DEAL_SEEKER,savings_ratio,3.4177,about_length,-0.2939,Discount (savings_ratio=0.50) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B08497Z1MQ,SOCIAL_PROOF,rating,1.8961,word_count,-0.5482,Key driver: rating. Main barrier: word_count. Optimise word_count to shift toward a higher-value segment.
+B071Z8M4KX,DEAL_SEEKER,savings_ratio,3.8626,tfidf_mic,-0.3951,Discount (savings_ratio=0.63) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B08Y1TFSP6,DEAL_SEEKER,savings_ratio,3.7964,tfidf_charging,-0.2188,Discount (savings_ratio=0.85) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B095244Q22,QUALITY_FIRST,rating,5.2752,savings_ratio,-1.1942,Key driver: rating. Main barrier: savings_ratio. Optimise savings_ratio to shift toward a higher-value segment.
+B07YCBSCYB,QUALITY_FIRST,review_percentile,1.0268,rating,-0.4502,Key driver: review_percentile. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B07GVR9TG7,DEAL_SEEKER,savings_ratio,3.636,trust_score,-0.3713,Low trust_score (2.20) is barrier to QUALITY_FIRST. Improving seller rating and response rate could boost trust score by 0.2+ and shift segment.
+B09CMP1SC8,DEAL_SEEKER,savings_ratio,3.8731,price_savings,-0.3123,Discount (savings_ratio=0.60) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B071VNHMX2,SOCIAL_PROOF,rating,2.7176,tfidf_white,-0.2274,Key driver: rating. Main barrier: tfidf_white. Optimise tfidf_white to shift toward a higher-value segment.
+B0BPBG712X,QUALITY_FIRST_RARE,review_log,4.9494,tfidf_10,-0.1031,Key driver: review_log. Main barrier: tfidf_10. Optimise tfidf_10 to shift toward a higher-value segment.
+B01J1CFO5I,DEAL_SEEKER,rating,1.2591,trust_score,-1.6986,Low trust_score (2.48) is barrier to QUALITY_FIRST. Improving seller rating and response rate could boost trust score by 0.2+ and shift segment.
+B07GLS2563,QUALITY_FIRST,review_percentile,1.0911,rating,-0.5387,Key driver: review_percentile. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B00C3GBCIS,DEAL_SEEKER,savings_ratio,3.4032,price_savings,-0.3819,Discount (savings_ratio=0.50) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B07YWS9SP9,QUALITY_FIRST,savings_ratio,1.2014,keyword_density,-0.3961,Key driver: savings_ratio. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B07FL3WRX5,QUALITY_FIRST,rating,6.0879,review_percentile,-1.1797,Key driver: rating. Main barrier: review_percentile. Optimise review_percentile to shift toward a higher-value segment.
+B0B5ZF3NRK,QUALITY_FIRST,review_percentile,0.9726,keyword_density,-0.4493,Key driver: review_percentile. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B07WGMMQGP,QUALITY_FIRST,rating,1.1585,social_proof_score,-0.2046,Key driver: rating. Main barrier: social_proof_score. Optimise social_proof_score to shift toward a higher-value segment.
+B00EYW1U68,DEAL_SEEKER,savings_ratio,3.6428,review_log,-0.1669,Low review volume (log=9.69) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B092R48XXB,QUALITY_FIRST,review_percentile,1.2081,keyword_density,-0.4568,Key driver: review_percentile. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B0B4F3QNDM,QUALITY_FIRST,review_percentile,1.1686,review_sentiment,-0.2371,Key driver: review_percentile. Main barrier: review_sentiment. Optimise review_sentiment to shift toward a higher-value segment.
+B09BW334ML,DEAL_SEEKER,savings_ratio,3.8788,review_log,-0.2074,Low review volume (log=8.33) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B09C6FML9B,DEAL_SEEKER,savings_ratio,2.9324,price_savings,-0.3339,Discount (savings_ratio=0.47) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0B61GCHC1,DEAL_SEEKER,savings_ratio,3.8577,social_proof_score,-0.3587,Discount (savings_ratio=0.80) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0BJYSCWFQ,DEAL_SEEKER,savings_ratio,3.587,tfidf_electric,-0.4924,Discount (savings_ratio=0.55) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09C6HXFC1,DEAL_SEEKER,savings_ratio,2.9758,trust_score,-1.5617,Low trust_score (2.43) is barrier to QUALITY_FIRST. Improving seller rating and response rate could boost trust score by 0.2+ and shift segment.
+B0B3RRWSF6,DEAL_SEEKER,savings_ratio,3.7468,about_length,-0.2359,Discount (savings_ratio=0.80) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09GFN8WZL,DEAL_SEEKER,savings_ratio,3.8422,price_savings,-0.045,Discount (savings_ratio=0.62) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B06Y36JKC3,DEAL_SEEKER,savings_ratio,3.3889,price_savings,-0.3969,Discount (savings_ratio=0.50) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B01IOZUHRS,DEAL_SEEKER,savings_ratio,3.8315,price_savings,-0.2698,Discount (savings_ratio=0.64) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B00UGZWM2I,DEAL_SEEKER,savings_ratio,3.8653,review_log,-0.1718,Low review volume (log=9.14) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B08MCD9JFY,DEAL_SEEKER,savings_ratio,3.47,rating,-0.5949,Low product rating (3.8★) prevents QUALITY_FIRST entry. Improve review quality — target 4.2★+ for threshold crossing.
+B06XPYRWV5,QUALITY_FIRST,savings_ratio,1.0945,rating,-0.5567,Key driver: savings_ratio. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B0989W6J2F,QUALITY_FIRST,review_percentile,1.1412,review_sentiment,-0.3165,Key driver: review_percentile. Main barrier: review_sentiment. Optimise review_sentiment to shift toward a higher-value segment.
+B08CTNJ985,DEAL_SEEKER,savings_ratio,3.865,about_length,-0.2598,Discount (savings_ratio=0.67) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0B4F2XCK3,QUALITY_FIRST,review_percentile,1.1686,review_sentiment,-0.2371,Key driver: review_percentile. Main barrier: review_sentiment. Optimise review_sentiment to shift toward a higher-value segment.
+B07LFQLKFZ,QUALITY_FIRST,review_percentile,0.9334,review_sentiment,-0.268,Key driver: review_percentile. Main barrier: review_sentiment. Optimise review_sentiment to shift toward a higher-value segment.
+B09P182Z2H,QUALITY_FIRST_RARE,review_log,4.3933,review_sentiment,-0.5853,Key driver: review_log. Main barrier: review_sentiment. Optimise review_sentiment to shift toward a higher-value segment.
+B0B2CZTCL2,QUALITY_FIRST,rating,3.044,tfidf_black,-0.3714,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B00JBNZPFM,NICHE_EXPLORER,review_percentile,2.8856,social_proof_score,-0.4262,Key driver: review_percentile. Main barrier: social_proof_score. Optimise social_proof_score to shift toward a higher-value segment.
+B08SCCG9D4,DEAL_SEEKER,savings_ratio,3.4806,review_log,-0.1669,Low review volume (log=9.61) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B00KIE28X0,SOCIAL_PROOF,rating,2.7489,tfidf_black,-0.2137,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B08L879JSN,DEAL_SEEKER,savings_ratio,3.6257,price_vs_median,-0.1302,Discount (savings_ratio=0.54) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B08M66K48D,DEAL_SEEKER,savings_ratio,3.3784,price_savings,-0.3891,Discount (savings_ratio=0.50) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0BBN3WF7V,QUALITY_FIRST,review_percentile,1.095,review_sentiment,-0.3373,Key driver: review_percentile. Main barrier: review_sentiment. Optimise review_sentiment to shift toward a higher-value segment.
+B081RLM75M,QUALITY_FIRST,rating,3.5133,review_log,-0.636,Low review volume (log=4.42) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B07QDSN9V6,DEAL_SEEKER,savings_ratio,3.7336,tfidf_electric,-0.4924,Discount (savings_ratio=0.56) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0B56YRBNT,QUALITY_FIRST,rating,3.8398,price_savings,-0.2276,Key driver: rating. Main barrier: price_savings. Optimise price_savings to shift toward a higher-value segment.
+B08RDWBYCQ,QUALITY_FIRST,review_percentile,0.9667,keyword_density,-0.3741,Key driver: review_percentile. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B089WB69Y1,DEAL_SEEKER,savings_ratio,3.8825,review_log,-0.1718,Low review volume (log=9.58) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B07LGT55SJ,DEAL_SEEKER,savings_ratio,3.7923,tfidf_charging,-0.2188,Discount (savings_ratio=0.64) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B07JPJJZ2H,DEAL_SEEKER,savings_ratio,3.7843,review_log,-0.1718,Low review volume (log=9.48) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B07K2HVKLL,QUALITY_FIRST,savings_ratio,1.1435,keyword_density,-0.5607,Key driver: savings_ratio. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B085W8CFLH,QUALITY_FIRST,rating,6.3384,review_percentile,-1.214,Key driver: rating. Main barrier: review_percentile. Optimise review_percentile to shift toward a higher-value segment.
+B09VT6JKRP,DEAL_SEEKER,savings_ratio,3.8313,social_proof_score,-0.2105,Discount (savings_ratio=0.80) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B07CD2BN46,NICHE_EXPLORER,review_percentile,2.6651,tfidf_black,-0.348,Key driver: review_percentile. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B09C6HXFC1,DEAL_SEEKER,savings_ratio,2.9758,trust_score,-1.5617,Low trust_score (2.43) is barrier to QUALITY_FIRST. Improving seller rating and response rate could boost trust score by 0.2+ and shift segment.
+B08T8KWNQ9,QUALITY_FIRST,rating,5.6366,savings_ratio,-1.1474,Key driver: rating. Main barrier: savings_ratio. Optimise savings_ratio to shift toward a higher-value segment.
+B003L62T7W,SOCIAL_PROOF,rating,1.9109,tfidf_laptop,-0.2168,Key driver: rating. Main barrier: tfidf_laptop. Optimise tfidf_laptop to shift toward a higher-value segment.
+B09RF2QXGX,DEAL_SEEKER,savings_ratio,3.8534,price_savings,-0.3482,Discount (savings_ratio=0.77) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0BD3T6Z1D,NICHE_EXPLORER,review_percentile,2.6893,trust_score,-0.1853,Key driver: review_percentile. Main barrier: trust_score. Optimise trust_score to shift toward a higher-value segment.
+B0B4HJNPV4,DEAL_SEEKER,savings_ratio,3.7452,tfidf_charging,-0.2188,Discount (savings_ratio=0.80) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B01GGKYKQM,DEAL_SEEKER,savings_ratio,3.8928,tfidf_charging,-0.2188,Discount (savings_ratio=0.69) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09YLYB9PB,DEAL_SEEKER,savings_ratio,3.7914,price_savings,-0.2865,Discount (savings_ratio=0.63) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09HCH3JZG,DEAL_SEEKER,savings_ratio,3.7575,about_length,-0.2963,Discount (savings_ratio=0.63) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B08ZHYNTM1,SOCIAL_PROOF,rating,1.9437,tfidf_black,-0.2306,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B09XJ5LD6L,QUALITY_FIRST,rating,3.5307,keyword_density,-0.3185,Key driver: rating. Main barrier: keyword_density. Optimise keyword_density to shift toward a higher-value segment.
+B08Y1TFSP6,DEAL_SEEKER,savings_ratio,3.767,tfidf_charging,-0.2188,Discount (savings_ratio=0.85) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B085CZ3SR1,QUALITY_FIRST,review_percentile,0.7257,social_proof_score,-0.8178,Key driver: review_percentile. Main barrier: social_proof_score. Optimise social_proof_score to shift toward a higher-value segment.
+B078HRR1XV,SOCIAL_PROOF,rating,2.5781,word_count,-0.2664,Key driver: rating. Main barrier: word_count. Optimise word_count to shift toward a higher-value segment.
+B01D5H8ZI8,DEAL_SEEKER,savings_ratio,3.8593,review_log,-0.1718,Low review volume (log=9.46) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B00DJ5N9VK,SOCIAL_PROOF,rating,1.9648,tfidf_black,-0.2275,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
+B079S811J3,SOCIAL_PROOF,rating,2.1614,trust_score,-0.7244,Key driver: rating. Main barrier: trust_score. Optimise trust_score to shift toward a higher-value segment.
+B08CF3D7QR,DEAL_SEEKER,savings_ratio,3.8367,price_savings,-0.2865,Discount (savings_ratio=0.55) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B09NY6TRXG,QUALITY_FIRST,rating,3.3994,price_savings,-0.2563,Key driver: rating. Main barrier: price_savings. Optimise price_savings to shift toward a higher-value segment.
+B07DL1KC3H,DEAL_SEEKER,savings_ratio,3.8749,tfidf_remote,-0.068,Discount (savings_ratio=0.67) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B012MQS060,NICHE_EXPLORER,review_percentile,2.8163,social_proof_score,-0.174,Key driver: review_percentile. Main barrier: social_proof_score. Optimise social_proof_score to shift toward a higher-value segment.
+B0BL3R4RGS,QUALITY_FIRST,rating,5.2551,review_log,-0.5456,Low review volume (log=1.61) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B01I1LDZGA,QUALITY_FIRST,rating,4.7755,review_percentile,-1.6717,Key driver: rating. Main barrier: review_percentile. Optimise review_percentile to shift toward a higher-value segment.
+B09B9SPC7F,DEAL_SEEKER,savings_ratio,3.8283,about_length,-0.2598,Discount (savings_ratio=0.62) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0B7FJNSZR,DEAL_SEEKER,savings_ratio,3.5181,tfidf_10,-0.3836,Discount (savings_ratio=0.73) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B077T3BG5L,QUALITY_FIRST,rating,6.7265,review_percentile,-1.6795,Key driver: rating. Main barrier: review_percentile. Optimise review_percentile to shift toward a higher-value segment.
+B07WMS7TWB,DEAL_SEEKER,savings_ratio,3.0841,tfidf_electric,-0.4924,Discount (savings_ratio=0.48) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B08PKBMJKS,DEAL_SEEKER,savings_ratio,3.5152,rating,-0.8674,Low product rating (3.8★) prevents QUALITY_FIRST entry. Improve review quality — target 4.2★+ for threshold crossing.
+B082FTPRSK,DEAL_SEEKER,savings_ratio,3.651,review_log,-0.1672,Low review volume (log=10.22) limits SOCIAL_PROOF signal. Incentivise reviews — target 50+ reviews for stronger classification.
+B0836JGZ74,QUALITY_FIRST,rating,5.2293,savings_ratio,-1.177,Key driver: rating. Main barrier: savings_ratio. Optimise savings_ratio to shift toward a higher-value segment.
+B09RWZRCP1,DEAL_SEEKER,savings_ratio,3.7908,tfidf_charging,-0.2188,Discount (savings_ratio=0.60) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0B4T6MR8N,DEAL_SEEKER,savings_ratio,3.7802,tfidf_cable,-0.0859,Discount (savings_ratio=0.89) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B0BDRVFDKP,NICHE_EXPLORER,review_percentile,2.3623,rating,-1.3568,Key driver: review_percentile. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B09LQQYNZQ,QUALITY_FIRST,review_percentile,0.6252,rating,-2.823,Key driver: review_percentile. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B08PPHFXG3,DEAL_SEEKER,savings_ratio,3.8806,tfidf_speed,-0.0913,Discount (savings_ratio=0.83) is your primary DEAL_SEEKER driver. Maintain for deal-seeker conversions or reduce to <0.3 to attract quality buyers.
+B00H3H03Q4,NICHE_EXPLORER,review_percentile,2.6858,social_proof_score,-0.2349,Key driver: review_percentile. Main barrier: social_proof_score. Optimise social_proof_score to shift toward a higher-value segment.
+B01IBRHE3E,QUALITY_FIRST,savings_ratio,0.9949,rating,-0.8419,Key driver: savings_ratio. Main barrier: rating. Optimise rating to shift toward a higher-value segment.
+B01DJJVFPC,SOCIAL_PROOF,rating,2.7489,tfidf_black,-0.2051,Key driver: rating. Main barrier: tfidf_black. Optimise tfidf_black to shift toward a higher-value segment.
